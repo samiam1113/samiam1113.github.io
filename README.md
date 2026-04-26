@@ -27,6 +27,14 @@
       /* Text styling */
       font-family: Arial, sans-serif;
       color: white;
+
+      body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5); /* 0.5 = 50% dark — adjust as needed */
+      z-index: -1;
+      }
     }
 
     h1 {
