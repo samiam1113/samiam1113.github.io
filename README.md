@@ -13,9 +13,9 @@
 
       /* Background image */
       background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.old-games.com%2Fscreenshot%2F6886-2-rollercoaster-tycoon-2.jpg&f=1&nofb=1&ipt=c4509a3c0f3dcfa39a2d0f4153fcde92d80f0255412649fd973fa438d0e000c2');
-      background-size: cover;       /* fills the whole screen */
-      background-position: center;  /* keeps it centered */
-      background-attachment: fixed; /* parallax-like effect */
+      background-size: cover;       
+      background-position: center; 
+      background-attachment: fixed; 
 
       /* Fallback color if image doesn't load */
       background-color: #1a1a2e;
@@ -28,15 +28,17 @@
       font-family: Arial, sans-serif;
       color: white;
 
-      body::before {
-      content: '';
-      position: fixed;
-      inset: 0;
-      background: rgba(0, 0, 0, 0.5); /* 0.5 = 50% dark — adjust as needed */
-      z-index: -1;
-      }
+      
     }
-
+      
+    body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: -1;
+    }
+      
     h1 {
       font-size: 2.5rem;
       margin-bottom: 10px;
@@ -75,15 +77,7 @@ and if the e-stop button has been pressed. The e-stop button can be reset, and t
 Systems like these are incredibly important. Ride conditions need to be closely monitored in the case that anything goes wrong, 
 failure of this hard real-time system could result in serious injury, and it is important that functions like the e-stop are deterministic.</p>
 
-  <iframe
-    width="560"
-    height="315"
-    src="https://youtu.be/KaH8Oey2f7I"
-    title="Rollercoaster Control System Demo Video"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-  </iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/KaH8Oey2f7I?si=Hr7pJW3IRlyVrE3R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 </body>
 </html>
