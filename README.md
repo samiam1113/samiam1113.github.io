@@ -2,6 +2,61 @@
 <head>
   <meta charset="UTF-8">
   <title>Application 6</title>
+  <style>
+
+    body {
+      /* Center all content */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      /* Background image */
+      background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.old-games.com%2Fscreenshot%2F6886-2-rollercoaster-tycoon-2.jpg&f=1&nofb=1&ipt=c4509a3c0f3dcfa39a2d0f4153fcde92d80f0255412649fd973fa438d0e000c2');
+      background-size: cover;       /* fills the whole screen */
+      background-position: center;  /* keeps it centered */
+      background-attachment: fixed; /* parallax-like effect */
+
+      /* Fallback color if image doesn't load */
+      background-color: #1a1a2e;
+
+      min-height: 100vh;
+      margin: 0;
+      padding: 40px 20px;
+
+      /* Text styling */
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin-bottom: 30px;
+    }
+
+    /* Responsive video */
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      width: 100%;
+      max-width: 800px;
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      border-radius: 10px;
+    }
+
+  </style>
 </head>
 <body>
 
